@@ -8,6 +8,6 @@ route.get('/' , (req, res) => {
     res.redirect('/tasks')
 })
 route.get('/tasks' , (req, res) => {
-    res.render('tasks' ,{users})
+    res.render('tasks' ,{users , tasks})
 })
 export default route
